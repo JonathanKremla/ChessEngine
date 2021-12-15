@@ -52,5 +52,13 @@ public class ChessBoard {
         }
     }
 
+    public ChessPiece get(Coordinates c){
+        return board.get(c);
+    }
+
+    public ChessPiece put (Coordinates c, ChessPiece piece){
+        return board.put(c,piece);
+    }
+
 }
 

@@ -17,4 +17,9 @@ public class Pawn implements ChessPiece{
                 "color='" + color + '\'' +
                 '}';
     }
+
+    @Override
+    public int worth() {
+        return 100;
+    }
 }

@@ -29,4 +29,20 @@ public class Coordinates {
                 ", number=" + number +
                 '}';
     }
+
+    public char getLetter() {
+        return letter;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setLetter(char letter) {
+        this.letter = letter;
+    }
+
+    public void setNumber(int number){
+        this.number = number;
+    }
 }
