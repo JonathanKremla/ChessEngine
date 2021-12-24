@@ -27,7 +27,7 @@ public class ChessBoard {
         for(int i = 1; i<= 8; i++){
             board.put(new Coordinates((char) (a+i),2),new Pawn(w));
             board.put(new Coordinates((char) (a+i),7),new Pawn(b));
-            switch (i) {
+            /*switch (i) {
                 case (1), (8) -> {
                     board.put(new Coordinates((char) (a + i), 1), new Rook(w));
                     board.put(new Coordinates((char) (a + i), 8), new Rook(b));
@@ -48,7 +48,7 @@ public class ChessBoard {
                     board.put(new Coordinates((char) (a + i), 1), new King(w));
                     board.put(new Coordinates((char) (a + i), 8), new King(b));
                 }
-            }
+            }*/
         }
     }
 

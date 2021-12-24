@@ -24,7 +24,7 @@ public class Knight implements ChessPiece{
     }
 
     public boolean validMove(Coordinates destination, ChessBoard board){
-        if() return false;
+        if(true) return false;
         if(board.get(destination) == null) return true;
         return !board.get(destination).color().equals(this.color);
     }
